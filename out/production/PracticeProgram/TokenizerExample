@@ -1,0 +1,25 @@
+import java.util.StringTokenizer;
+
+public class TokenizerExample {
+
+    public static void main(String[] args) {
+
+        String sentence = "Java is a versatile programming language";
+
+        // Create a StringTokenizer with space as the default delimiter
+
+        StringTokenizer tokenizer = new StringTokenizer(sentence);
+
+        // Count and print tokens
+
+        System.out.println("Total tokens: " + tokenizer.countTokens());
+
+        while (tokenizer.hasMoreTokens()) {
+
+            System.out.println(tokenizer.nextToken());
+
+        }
+
+    }
+
+} 
