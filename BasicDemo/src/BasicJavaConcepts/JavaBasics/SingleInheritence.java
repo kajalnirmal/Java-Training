@@ -1,8 +1,10 @@
-package javabasics;
+package BasicJavaConcepts.JavaBasics;
 class Animal{
     void eat(){
         System.out.println (" this animal eats food .");
     }
+
+
 }
 class Dog extends Animal{
     void bark(){

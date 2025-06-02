@@ -1,4 +1,4 @@
-package javabasics;
+package BasicJavaConcepts.JavaBasics;
 
 public class StudentConsturctorUse {
     String name;

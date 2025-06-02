@@ -1,4 +1,4 @@
-package javabasics;
+package BasicJavaConcepts.JavaBasics;
 
 import java.sql.SQLOutput;
 
@@ -7,6 +7,7 @@ public class Actor {
 
 
     public String getName() {
+
         return name ;
     }
     public void setName(String name) {

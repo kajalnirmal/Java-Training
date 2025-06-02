@@ -1,4 +1,4 @@
-package javabasics;
+package BasicJavaConcepts.JavaBasics;
 class Vehicle{
     void startEngine(){
         System.out.println ("engine started");
