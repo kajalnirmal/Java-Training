@@ -1,12 +1,11 @@
 package BasicJavaConcepts.JavaBasics;
 
 
-   class Animals {
-       public void sound () {
-           System.out.println ("animal makes a sound");
-       }
+    abstract class Animals {
+      public abstract  void sound () ;
+
    }
-       class Donkey extends Animal {
+       class Donkey extends Animals {
            @Override
            public void sound () {
                System.out.println ("dog barks");
@@ -17,10 +16,10 @@ package BasicJavaConcepts.JavaBasics;
 
 public class MethodOverriding {
     public static void main(String[] args) {
-        Animals a = new Animals ();
-        Animals b = new Animals ();
+        Animals a = new Donkey ();
+
 
         a.sound ();
-        b.sound ();
+       // b.sound ();
     }
 }

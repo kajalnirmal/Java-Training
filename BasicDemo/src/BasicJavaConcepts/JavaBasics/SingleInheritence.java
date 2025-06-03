@@ -1,5 +1,5 @@
 package BasicJavaConcepts.JavaBasics;
-class Animal{
+ class Animal{
     void eat(){
         System.out.println (" this animal eats food .");
     }
